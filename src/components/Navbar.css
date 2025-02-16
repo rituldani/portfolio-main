@@ -1,0 +1,67 @@
+*{
+    width: 100%;
+}
+.root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+
+    .nav {
+        font-size: 1.5em;
+        padding: 15px;
+        width: 90%;
+        /* background-color: beige; */
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            .portfolio {
+                color: rgb(197, 128, 174);
+                text-decoration: none;
+            }
+            font-weight: bold;
+            /* background-color: bisque; */
+            width: 35%;
+        }
+
+        .container1 {
+            width: 65%;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                cursor: pointer;
+                color: rgb(197, 128, 174);
+                button {
+                    all: unset;
+                    background: none;
+                    border: none;
+                    padding: 4px;
+                    margin: 0;
+                    font: inherit;
+                    cursor: pointer;
+                    outline: none;
+                    border-radius: 7px;
+                }
+                button:hover {
+                    background-color: #e7a3d2;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+}
