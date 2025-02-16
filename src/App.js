@@ -1,14 +1,16 @@
-// import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    {/* <Footer/> */}
-    </>
+    <Router>
+      <>
+        <Navbar />
+        {/* <Footer /> */}
+      </>
+    </Router>
   );
 }
 
