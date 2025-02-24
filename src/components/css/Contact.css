@@ -1,0 +1,45 @@
+.contact-section{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: bisque; */
+}
+
+.con-sec .heading1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.con-sec .big-box {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.con-sec .big-box .parts {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.con-sec .big-box .parts img {
+    height: 130px;
+    width: 130px;
+}
+
+.con-sec .big-box .parts .p1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.con-sec .big-box .parts .p2 {
+    text-align: center;
+    font-size: large;
+}
