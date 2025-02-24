@@ -9,9 +9,7 @@ const Home = React.forwardRef((props, ref) => {
                 <div className='text'>
                     <h1>Hello,</h1>
                     <h2>I'm Ritul Dani</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis accusantium delectus quasi numquam?
-                        A maiores fugit commodi distinctio vel voluptatibus iure in recusandae sequi. Tenetur deleniti iure consectetur
-                        dignissimos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab!</p>
+                    <p>I am Ritul Dani, a front-end developer passionate about creating responsive and user-friendly web applications. I specialize in HTML, CSS, JavaScript, and modern frameworks like React. With a keen eye for design and performance optimization, I strive to deliver seamless user experiences.</p>
                     {/* <button className='btn'>Dowload resume</button> */}
                     <a href="/resume.pdf" download="resume.pdf">
                         <button className="btn">Download Resume</button>
